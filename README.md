@@ -5,6 +5,10 @@ The Code Analyzer application is designed to analyze and explain code files usin
 OS supported: Woks on Linux only yet.
 
 
+![Video Demo]([https://github.com/username/repository/raw/branch/filename.mp4](https://github.com/nizpew/AI-code-analysis/blob/main/gitdemo.mp4))
+
+
+
 
 ## Features
 - **Import Code File**: Allows users to select and import a code file (e.g., Python script) for analysis.
@@ -24,7 +28,7 @@ OS supported: Woks on Linux only yet.
 ## Usage
 1. **Installation**:
    - Ensure Python and necessary dependencies are installed (`gi`, `subprocess`, etc.).
-   - TGPT tool should be installed and accessible via the command line (`tgpt`).
+   -     curl -sSL https://raw.githubusercontent.com/aandrew-me/tgpt/main/install | bash -s /usr/local/bin           #TGPT tool should be installed and accessible via the command line (`tgpt`).
 
 2. **Execution**:
    - Run the script (`code_analyzer.py`). with "python staticcodenalysis.py" or "python3 staticcodenalysis.py" 
