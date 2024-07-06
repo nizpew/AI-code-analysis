@@ -2,6 +2,9 @@
 
 ## Overview
 The Code Analyzer application is designed to analyze and explain code files using an AI-powered tool called TGPT. It provides both general analysis of the entire code file and specific line-by-line explanations interactively through a graphical user interface (GUI).
+OS supported: Woks on Linux only yet.
+
+
 
 ## Features
 - **Import Code File**: Allows users to select and import a code file (e.g., Python script) for analysis.
@@ -24,10 +27,10 @@ The Code Analyzer application is designed to analyze and explain code files usin
    - TGPT tool should be installed and accessible via the command line (`tgpt`).
 
 2. **Execution**:
-   - Run the script (`code_analyzer.py`).
+   - Run the script (`code_analyzer.py`). with "python staticcodenalysis.py" or "python3 staticcodenalysis.py" 
    - GUI will open, prompting to import a code file.
    - Clicking "Import Code File" allows selection of a file for analysis.
-   - Clicking on specific lines within the displayed code triggers line-specific explanations.
+   - Clicking on specific lines within the displayed code triggers line-specific explanations. (Warning: BETA. may not work properly)
 
 3. **Output**:
    - TGPT outputs are displayed in the GUI, formatted to distinguish code snippets, headers, and text explanations.
