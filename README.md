@@ -5,7 +5,8 @@ The Code Analyzer application is designed to analyze and explain code files usin
 OS supported: Woks on Linux only yet.
 
 
-[https://github.com/username/repository/raw/branch/filename.mp4](https://github.com/nizpew/AI-code-analysis/blob/main/gitdemo.mp4)
+
+https://github.com/nizpew/AI-code-analysis/assets/144165519/b5acd13a-ffe2-43c4-8c3f-c1468d21b4a7
 
 
 
