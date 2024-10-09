@@ -1,6 +1,7 @@
 # Code Analyzer
 
 ## Overview
+[status: working.] 
 The Code Analyzer application is designed to analyze and explain code files using an AI-powered tool called TGPT. It provides both general analysis of the entire code file and specific line-by-line explanations interactively through a graphical user interface (GUI).
 OS supported: Woks on Linux. And any OS supporting python, and https://github.com/aandrew-me/tgpt
 
@@ -30,9 +31,11 @@ https://github.com/nizpew/AI-code-analysis/assets/144165519/b5acd13a-ffe2-43c4-8
 ## Usage
 1. **Installation**:
    - Ensure Python and necessary dependencies are installed ith those two first lines
-   -     pip install PyQt5
-   -     curl -sSL https://raw.githubusercontent.com/aandrew-me/tgpt/main/install | bash -s /usr/local/bin           #TGPT tool should be installed and accessible via the command line (`tgpt`).
-   -     cd ; git clone https://github.com/nizpew/AI-code-analysis.git ; python AI-code-analysis/staticcodenalysis.py
+
+         pip install PyQt5
+         curl -sSL https://raw.githubusercontent.com/aandrew-me/tgpt/main/install | bash -s /usr/local/bin                #TGPT tool should be installed and accessible via the command line (`tgpt`).
+         cd
+         git clone https://github.com/nizpew/AI-code-analysis.git ; python AI-code-analysis/staticcodenalysis.py
 
 2. **Execution**:
    - Run the script with "python staticcodenalysis.py" or "python3 staticcodenalysis.py" 
