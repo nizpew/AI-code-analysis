@@ -19,15 +19,18 @@ https://github.com/nizpew/AI-code-analysis/assets/144165519/b5acd13a-ffe2-43c4-8
 - **Error Handling**: Handles errors gracefully, including timeouts and unexpected issues during the analysis process.
 
 ## Dependencies
-- **Python Libraries**:
+  - **Python Libraries**:
+  - PyQt5:
   - `gi`: GObject introspection library for GTK integration.
   - `subprocess`: For executing TGPT commands and managing processes.
   - `threading`: Facilitates multi-threading for non-blocking UI interaction.
   - `tempfile`, `os`: For temporary file management and path operations.
+  - 
 
 ## Usage
 1. **Installation**:
-   - Ensure Python and necessary dependencies are installed (`gi`, `subprocess`, etc.).
+   - Ensure Python and necessary dependencies are installed ith those two first lines
+   -     pip install PyQt5
    -     curl -sSL https://raw.githubusercontent.com/aandrew-me/tgpt/main/install | bash -s /usr/local/bin           #TGPT tool should be installed and accessible via the command line (`tgpt`).
    -     cd ; git clone https://github.com/nizpew/AI-code-analysis.git ; python AI-code-analysis/staticcodenalysis.py
 
