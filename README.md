@@ -1,7 +1,7 @@
 # Code Analyzer
 
 ## Overview
-[status: working.] 
+
 The Code Analyzer application is designed to analyze and explain code files using an AI-powered tool called TGPT. It provides both general analysis of the entire code file and specific line-by-line explanations interactively through a graphical user interface (GUI).
 OS supported: Woks on Linux. And any OS supporting python, and https://github.com/aandrew-me/tgpt
 
